@@ -14,3 +14,47 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.new-tooltip {
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 1px 14px rgba(0, 0, 0, 0.45);
+  font-size: 1rem;
+  max-width: 260px;
+  padding: 10px;
+  z-index: 1070;
+}
+
+.new-tooltip-arrow {
+  z-index: 999;
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  border: 8px solid transparent;
+}
+
+.new-tooltip-left {
+  border-right: 4px solid lightskyblue;
+}
+.new-tooltip-right {
+  border-left: 4px solid lightskyblue;
+}
+.new-tooltip-top {
+  border-bottom: 4px solid lightskyblue;
+}
+.new-tooltip-bottom {
+  border-top: 4px solid lightskyblue;
+}
+
+.new-tooltip-arrow-left {
+  border-left: 8px solid lightskyblue;
+}
+.new-tooltip-arrow-right {
+  border-right: 8px solid lightskyblue;
+}
+.new-tooltip-arrow-top {
+  border-top: 8px solid lightskyblue;
+}
+.new-tooltip-arrow-bottom {
+  border-bottom: 8px solid lightskyblue;
+}
